@@ -6,7 +6,7 @@ import { ArrowRight, Star, Shield, Wind, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function Hero() {
-  const handleScrollToTrial = (e: React.MouseEvent<HTMLAnchorElement>) => {
+  const handleScrollToTrial = (e: React.MouseEvent<HTMLAnchorElement | HTMLButtonElement>) => {
     e.preventDefault();
     const targetElement = document.querySelector("#contact");
     if (targetElement) {
