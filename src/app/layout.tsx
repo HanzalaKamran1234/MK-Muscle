@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     description: "Your strongest version starts here. Elite equipment, air-conditioned training facility, and expert coaches Shamim & Fatima.",
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "/icon.svg",
   }
 };
 
